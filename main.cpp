@@ -28,7 +28,7 @@ int main( int argc, char* args[] )
                 }
             }
         }
-        SDL_FillRect( screen, NULL, SDL_MapRGB( screen->format, 0x00, 0x00, 0xF0 ) );
+        SDL_FillRect( screen, NULL, SDL_MapRGB( screen->format, 0xF0, 0x00, 0x00 ) );
         SDL_UpdateWindowSurface( mainWindow );
     }
 
