@@ -15,6 +15,8 @@ int main( int argc, char* args[] )
     mainWindow = SDL_CreateWindow( "SDL basic test", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, 1980, 1080, SDL_WINDOW_FULLSCREEN );
     screen = SDL_GetWindowSurface( mainWindow );
 
+    std::cout<<"Hello World SDL!!!!!"<<std::endl;
+
     while(!done)
     {
         while(SDL_PollEvent(&event)!=0)
